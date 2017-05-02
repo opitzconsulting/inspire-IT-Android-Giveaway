@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <PreferenceCategory
+        android:title="Allgemein">
+
+        <EditTextPreference
+            android:inputType="text"
+            android:key="@string/pref_name"
+            android:defaultValue="@string/pref_name_default"
+            android:singleLine="true"
+            android:title="Bezeichnung"
+            android:summary="Name des Zählers"
+            android:maxLength="15"/>
+
+        <EditTextPreference
+            android:inputType="number"
+            android:key="@string/pref_beacon"
+            android:defaultValue="@string/pref_beacon_default"
+            android:singleLine="true"
+            android:title="Beacon Id"
+            android:maxLength="5"
+            android:summary="5-stellige MinorID des Beacons"/>
+
+
+        <EditTextPreference
+            android:inputType="number"
+            android:key="@string/pref_waittime"
+            android:defaultValue="@string/pref_waittime_default"
+            android:singleLine="true"
+            android:summary="Pause zwischen dem Hochzählen in Sekunden"
+            android:title="Zeit"
+            android:maxLength="4"/>
+
+        <EditTextPreference
+            android:inputType="number"
+            android:key="@string/pref_min_distance"
+            android:defaultValue="@string/pref_min_distance_default"
+            android:singleLine="true"
+            android:summary="Distanz in Metern ab der ein Beacon registriert werden soll"
+            android:title="Distanz zum Beacon"
+            android:maxLength="2"/>
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:title="Erweitert">
+
+
+        <EditTextPreference
+            android:inputType="number"
+            android:key="@string/pref_foreground_interval"
+            android:defaultValue="@string/pref_foreground_interval_default"
+            android:singleLine="true"
+            android:summary="Zeit zwischen zwei Scans in Sekunden"
+            android:title="Scanintervall (Vordergrund)"
+            android:maxLength="3"/>
+
+
+        <SwitchPreference
+            android:key="@string/pref_background_scan"
+            android:title="Scannen im Hintergrund"
+            android:defaultValue="@bool/pref_background_scan_default"
+            android:summary="Falls aktiviert, wird auch im gesperrten Zustand gescannt"/>
+
+        <EditTextPreference
+            android:inputType="number"
+            android:key="@string/pref_background_interval"
+            android:defaultValue="@string/pref_background_interval_default"
+            android:singleLine="true"
+            android:summary="Zeit zwischen zwei Scans in Sekunden"
+            android:title="Scanintervall (Hintergrund)"
+            android:maxLength="3"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

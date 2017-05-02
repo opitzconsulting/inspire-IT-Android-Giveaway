@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">OC|ExpoX Give Away App</string>
+
+    <string name="settings">Einstellungen</string>
+    <string name="welcome_text">Mit dieser App kannst du zählen, wie oft du an einem Beacon
+        vorbeigekommen bist. Folgende Einstellungen sind gerade aktiv:</string>
+    <string name="counter">Zähler</string>
+    <string name="resetButtonText">Zurücksetzen</string>
+    <string name="beaconLabel">Beacon:</string>
+    <string name="statusLabel">Status:</string>
+    <string name="distanceLabel">Entfernung:</string>
+    <string name="waittimeLabel">Wartezeit:</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="menu_about">Über</string>
+    <string name="inRange">in Reichweite</string>
+    <string name="notInRange">nicht in Reichweite</string>
+    <string name="notFound">nicht gefunden</string>
+    <string name="invalidBeaconId">Die BeaconID muss zwischen 0 und 65535 liegen.</string>
+    <string name="seconds">%1$d Sekunden</string>
+    <string name="bluetoothNotAvalaible">Dieses Gerät unterstützt leider kein Bluetooth.</string>
+    <string name="activateBluetooth">Bitte aktiviere Bluetooth.</string>
+    <string name="licenses">Lizensen</string>
+    <string name="disclaimer_txt">Im Zuge der Benutzung dieser App werden keine Daten über Sie oder
+        die Nutzung der App erhoben. Die notwendigen Berechtigungen dienen dazu Bluetooth Beacons zu orten.
+        Die gesamte Anwendung arbeitet offline und übermittelt zu keinem Zeitpunkt Daten.
+        Der Quellcode ist auf Github ensehbar.</string>
+    <string name="disclaimer">Datenschutz</string>
+</resources>
