@@ -15,7 +15,7 @@ Zudem wird für die Nutzung ein Bluetooth Beacon, welches im iBeacon Format send
 ## Installation
 
 Das Projekt lässt sich in Android Studio bauen und installieren oder über den Play Store herunterladen.
-(Link folgt)
+https://play.google.com/store/apps/details?id=de.opitz_consulting.expo_giveaway&hl=de
 
 ## Benutzung
 
